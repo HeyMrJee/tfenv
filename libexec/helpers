@@ -22,5 +22,5 @@ function curlw () {
     TLS_OPT=""
   fi
 
-  curl ${TLS_OPT} "$@"
+  curl ${TLS_OPT} -k "$@"
 }
